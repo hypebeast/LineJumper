@@ -5,6 +5,8 @@ LineJumper is a Sublime Text 3 plugin that adds commands to move your cursor and
 
 It's inspired by [Line Jumper](https://atom.io/packages/line-jumper) for [Atom](https://atom.io).
 
+![usage LineJumper](http://sebastianruml.com/downloads/projects/line_jumper/line_jumper.gif)
+
 ## Installation
 
  * recommended is to use [Sublime Package
