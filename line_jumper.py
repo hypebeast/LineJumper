@@ -2,9 +2,8 @@ import sublime, sublime_plugin
 
 class LineJumperCommand(sublime_plugin.TextCommand):
     def run(self, edit, **args):
-        number_of_lines = 10
-        cmd = 'move'
-        forward = False
+        settings = sublime.load_settings("LineJumper.sublime-settings")
+        number_of_lines = settings.get('number_of_lines')
         cmd_args = {}
 
         if not ('cmd' in args):

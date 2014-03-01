@@ -1,0 +1,8 @@
+/*
+ * Default settings
+ * LineJumper
+ */
+{
+    // The number of lines that should be jumped or selected
+    "number_of_lines": 10
+}

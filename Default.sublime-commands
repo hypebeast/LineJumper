@@ -49,6 +49,20 @@
         }
     },
     {
+        "caption": "Preferences: LineJumper Settings – Default",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/LineJumper/LineJumper.sublime-settings"
+        }
+    },
+    {
+        "caption": "Preferences: LineJumper Settings – User",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/LineJumper.sublime-settings"
+        }
+    },
+    {
         "caption": "LineJumper: Move up lines",
         "command": "line_jumper",
         "args": {
