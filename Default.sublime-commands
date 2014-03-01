@@ -1,0 +1,83 @@
+
+[
+    {
+        "caption": "Preferences: LineJumper Key Bindings – Default",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/LineJumper/Default (Windows).sublime-keymap",
+            "platform": "Windows"
+        }
+    },
+    {
+        "caption": "Preferences: LineJumper Key Bindings – Default",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/LineJumper/Default (OSX).sublime-keymap",
+            "platform": "OSX"
+        }
+    },
+    {
+        "caption": "Preferences: LineJumper Key Bindings – Default",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/LineJumper/Default (Linux).sublime-keymap",
+            "platform": "Linux"
+        }
+    },
+    {
+        "caption": "Preferences: LineJumper Key Bindings – User",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/Default (Windows).sublime-keymap",
+            "platform": "Windows"
+        }
+    },
+    {
+        "caption": "Preferences: LineJumper Key Bindings – User",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/Default (OSX).sublime-keymap",
+            "platform": "OSX"
+        }
+    },
+    {
+        "caption": "Preferences: LineJumper Key Bindings – User",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/Default (Linux).sublime-keymap",
+            "platform": "Linux"
+        }
+    },
+    {
+        "caption": "LineJumper: Move up lines",
+        "command": "line_jumper",
+        "args": {
+            "number_of_lines": 10,
+            "cmd": "up"
+        }
+    },
+    {
+        "caption": "LineJumper: Move down lines",
+        "command": "line_jumper",
+        "args": {
+            "number_of_lines": 10,
+            "cmd": "down"
+        }
+    },
+    {
+        "caption": "LineJumper: Select up lines",
+        "command": "line_jumper",
+        "args": {
+            "number_of_lines": 10,
+            "cmd": "up_select"
+        }
+    },
+    {
+        "caption": "LineJumper: Select down lines",
+        "command": "line_jumper",
+        "args": {
+            "number_of_lines": 10,
+            "cmd": "down_select"
+        }
+    }
+]

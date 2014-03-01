@@ -1,0 +1,34 @@
+[
+    {
+        "keys": ["alt+up"],
+        "command": "line_jumper",
+        "args": {
+            "number_of_lines": 10,
+            "cmd": "up"
+        }
+    },
+    {
+        "keys": ["alt+down"],
+        "command": "line_jumper",
+        "args": {
+            "number_of_lines": 10,
+            "cmd": "down"
+        }
+    },
+    {
+        "keys": ["alt+shift+down"],
+        "command": "line_jumper",
+        "args": {
+            "number_of_lines": 10,
+            "cmd": "down_select"
+        }
+    },
+        {
+        "keys": ["alt+shift+up"],
+        "command": "line_jumper",
+        "args": {
+            "number_of_lines": 10,
+            "cmd": "up_select"
+        }
+    }
+]
